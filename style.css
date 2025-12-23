@@ -1,0 +1,8 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fffcf5;
+  /* background-image: url("https://raw.githubusercontent.com/gabicypher/gabicypher.github.io/main/media/backgroundtiles.png");*/
+}

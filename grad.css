@@ -42,9 +42,9 @@ body {
 }
 
 #bannerphoto {
-	height: 100px;          
-  overflow: hidden;
-  width: auto; 
+	width:40%;
+    height:auto;
+    overflow: hidden;
 }
 
 #bannertext {

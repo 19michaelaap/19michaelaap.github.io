@@ -21,12 +21,6 @@ text-decoration: none;
 font-style: normal;
 }
 
-td#header{
-    text-align: right;
-    vertical-align: center;
-    padding: 3%;
-}
-
 
 td#info {
 text-align: left;
@@ -54,7 +48,7 @@ td#photo
 {
 width: 30%;
 /*height: 460px;*/
-background-color: #FFFFFF;
+background-color: #e2e2e2;
 vertical-align: center;
 }
 
@@ -84,6 +78,7 @@ height: 100px;
 
 table#grid td
 {
+    text-align: center;
 padding: 23px;
 /*width: 33.3%;
 height: 50%;*/

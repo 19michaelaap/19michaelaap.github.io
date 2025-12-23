@@ -74,6 +74,7 @@ border-style: none;
 border-width: 0;
 margin: -3px -3px -3px -3px;
 height: 100px;
+align-self: center;
 }
 
 table#grid td
@@ -94,10 +95,8 @@ a:hover {color:#3399FF}
 a:active {color:#FF0000}
 
 table#grid a {text-decoration:none}
-table#grid a:link {color:#000000}
-table#grid a:visited {color:#000000}
-table#grid a:hover {color:#ffffff}
-table#grid a:active {color:#FF0000}
+table#grid a:link {color:#ffffff}
+table#grid a:hover {color:#000000}
 
 a.dart {text-decoration:none}
 a.dart:link {color:#00693e}

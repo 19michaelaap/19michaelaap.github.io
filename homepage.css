@@ -72,7 +72,7 @@ table#grid
 {
 border-style: none;
 border-width: 0;
-margin: -3px -3px -3px -3px;
+margin: 0 auto;
 height: 100px;
 align-self: center;
 }
@@ -86,14 +86,11 @@ height: 50%;*/
 background-color: #8d41b9;
 border-style: none;
 border-width: 0;
-margin: 0 auto;
 }
 
 a {text-decoration:none}
 a:link {color:#0F4D92}
-a:visited {color:#66487D}
 a:hover {color:#3399FF}
-a:active {color:#FF0000}
 
 table#grid a {text-decoration:none}
 table#grid a:link {color:#ffffff}

@@ -14,6 +14,14 @@ max-width: 800px;
 max-height: 495px;
 }
 
+p
+{
+font-family: Verdana, Geneva, sans-serif; 
+text-decoration: none;
+font-style: normal;
+}
+
+
 td#info {
 text-align: left;
 vertical-align: top;

@@ -42,8 +42,9 @@ body {
 }
 
 #bannerphoto {
-	height:280px;
-	float:left;
+	height: 100%;          /* your allocated space */
+  overflow: hidden;
+  width: auto; 
 }
 
 #bannertext {

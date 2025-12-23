@@ -21,6 +21,12 @@ text-decoration: none;
 font-style: normal;
 }
 
+td#header{
+    text-align: right;
+    vertical-align: center;
+    padding: 3%;
+}
+
 
 td#info {
 text-align: left;
@@ -48,8 +54,8 @@ td#photo
 {
 width: 30%;
 /*height: 460px;*/
-background-color: #00693e;
-vertical-align: bottom;
+background-color: #FFFFFF;
+vertical-align: center;
 }
 
 td#photo img

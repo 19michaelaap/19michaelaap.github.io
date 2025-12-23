@@ -34,7 +34,7 @@ body {
 	display:inline-block;
     height:280px;
     /*padding:0px 10px 0px 0px; */
-    background-color:#38672F; 
+    background-color:#803d8f; 
     /*background-color:#000000; */
     /* background-image: url(Dart_panoramic_small.jpg);
     background-position: top center;
@@ -42,7 +42,7 @@ body {
 }
 
 #bannerphoto {
-	height: 100%;          /* your allocated space */
+	height: 10px;          
   overflow: hidden;
   width: auto; 
 }

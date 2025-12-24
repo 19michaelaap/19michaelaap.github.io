@@ -63,11 +63,15 @@ td#empty{
   height: 5px;
 }
 
+td#talk {
+  text-align: left;
+}
+
 table#lists{
   border-style: none;
 border-width: 0;
 margin: 0 auto;
-/*height: 100px;*/
+height: 100px;
 vertical-align: top;
 }
 

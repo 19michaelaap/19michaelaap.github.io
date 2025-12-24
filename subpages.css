@@ -51,6 +51,8 @@ table#lists td#pub{
   width: 80%;
   text-align: left;
   vertical-align: top;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 table#lists td#docs{
@@ -61,6 +63,10 @@ table#lists td#docs{
 
 td#empty{
   height: 5px;
+}
+
+td#sempty {
+  height: 3px;
 }
 
 td#talk {

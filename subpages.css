@@ -31,7 +31,7 @@ td#title {
 }
 
 td#header {
-  text-align: left;
+  text-align: center;
   vertical-align: top;
   font-size: large;
   font-weight: normal;
@@ -45,13 +45,13 @@ td#summary {
 table#lists td#number{
   width: 10%;
   vertical-align: top;
+  padding-bottom: 15%;
 }
 
 table#lists td#pub{
   width: 80%;
   text-align: left;
   vertical-align: top;
-  padding-top: 5%;
   padding-bottom: 15%;
 }
 
@@ -59,6 +59,7 @@ table#lists td#docs{
   width: 10%;
   line-height: 1.5;
   vertical-align: top;
+  padding-bottom: 15%;
 }
 
 td#empty{
@@ -71,7 +72,7 @@ td#sempty {
 
 td#talk {
   text-align: left;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
 }
 
 table#lists{

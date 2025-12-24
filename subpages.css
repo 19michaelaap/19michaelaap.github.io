@@ -21,54 +21,15 @@ text-decoration: none;
 font-style: normal;
 }
 
-
-td#info {
-text-align: left;
-vertical-align: top;
-padding: 3%;
+td#title {
+  text-align: center;
+  vertical-align: top;
+  padding: 3%;
+  font-size: x-large;
+  font-weight: bold;
+  color: #7b2a90;
 }
 
-td#info h1
-{
-font-size: x-large;
-font-weight: bold;
-margin-bottom: 0;
-margin-top: 0;
-color: #7b2a90;
-}
-
-td#info h2
-{
-font-size: large;
-font-weight: normal;    
-margin-bottom: 0;
-margin-top: 0;
-color: #7b2a90;
-}
-
-td#photo
-{
-width: 30%;
-/*height: 460px;*/
-background-color: #f7f7f7;
-vertical-align: center;
-}
-
-td#photo img
-{
-width: 100%;
-min-width: 353px;    
-height: auto;
-vertical-align:bottom;
-bottom: 0;
-}
-
-address 
-{
-font-family: Verdana, Geneva, sans-serif; 
-text-decoration: none;
-font-style: normal;
-}
 
 table#grid
 {

@@ -34,6 +34,7 @@ font-size: x-large;
 font-weight: bold;
 margin-bottom: 0;
 margin-top: 0;
+color: #7b2a90;
 }
 
 td#info h2
@@ -42,6 +43,7 @@ font-size: large;
 font-weight: normal;    
 margin-bottom: 0;
 margin-top: 0;
+color: #7b2a90;
 }
 
 td#photo
@@ -95,6 +97,7 @@ td#border {
 
 a {text-decoration:none}
 a:link {color:#cb7cdf}
+a:visited{color:#cb7cdf}
 a:hover {color:#7b2a90}
 
 table#grid a {text-decoration:none}

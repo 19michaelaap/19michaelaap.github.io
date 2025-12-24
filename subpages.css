@@ -43,23 +43,24 @@ td#summary {
 }
 
 table#lists td#number{
-  width: 10%;
+  width: 5%;
   vertical-align: top;
-  padding-bottom: 7%;
+  padding-bottom: 4%;
 }
 
 table#lists td#pub{
-  width: 80%;
+  width: 70%;
   text-align: left;
   vertical-align: top;
-  padding-bottom: 7%;
+  padding-bottom: 4%;
+  padding-left: 5%;
 }
 
 table#lists td#docs{
-  width: 10%;
+  width: 20%;
   line-height: 1.5;
   vertical-align: top;
-  padding-bottom: 7%;
+  padding-bottom: 4%;
 }
 
 td#empty{
@@ -72,7 +73,7 @@ td#sempty {
 
 td#talk {
   text-align: justify;
-  padding-bottom: 7%;
+  padding-bottom: 4%;
 }
 
 table#lists{

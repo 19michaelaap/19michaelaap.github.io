@@ -30,6 +30,28 @@ td#title {
   color: #7b2a90;
 }
 
+td#header {
+  text-align: left;
+  vertical-align: top;
+  font-size: large;
+  color: #7b2a90;
+}
+
+td#summary {
+  text-align: left;
+}
+
+td#number{
+  width: 10%;
+}
+
+td#pub{
+  width: 80%;
+}
+
+td#docs{
+  width: 10%;
+}
 
 table#grid
 {

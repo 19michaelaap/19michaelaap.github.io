@@ -50,11 +50,13 @@ table#lists td#number{
 table#lists td#pub{
   width: 80%;
   text-align: left;
+  vertical-align: top;
 }
 
 table#lists td#docs{
   width: 10%;
   line-height: 1.5;
+  vertical-align: top;
 }
 
 td#empty{
@@ -65,7 +67,7 @@ table#lists{
   border-style: none;
 border-width: 0;
 margin: 0 auto;
-height: 100px;
+/*height: 100px;*/
 vertical-align: top;
 }
 

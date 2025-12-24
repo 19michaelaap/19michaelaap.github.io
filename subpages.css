@@ -71,8 +71,9 @@ table#lists{
   border-style: none;
 border-width: 0;
 margin: 0 auto;
-height: 100px;
+height: 150px;
 vertical-align: top;
+font-size: medium;
 }
 
 table#grid

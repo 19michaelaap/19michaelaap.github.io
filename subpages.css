@@ -34,12 +34,12 @@ td#header {
   text-align: center;
   vertical-align: top;
   font-size: large;
-  font-weight: normal;
+  font-weight: bold;
   color: #7b2a90;
 }
 
 td#summary {
-  text-align: left;
+  text-align: justify;
 }
 
 table#lists td#number{
@@ -53,7 +53,7 @@ table#lists td#pub{
   text-align: left;
   vertical-align: top;
   padding-bottom: 4%;
-  padding-left: 5%;
+  padding-right: 5%;
 }
 
 table#lists td#docs{

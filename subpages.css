@@ -48,10 +48,15 @@ td#number{
 
 td#pub{
   width: 80%;
+  text-align: left;
 }
 
 td#docs{
   width: 10%;
+}
+
+td#empty{
+  height: 5px;
 }
 
 table#grid

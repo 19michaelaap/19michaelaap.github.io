@@ -7,7 +7,7 @@ background-color: #f7f7f7;
 
 table#bounding
 {
-background-color: #e2e2e2;
+background-color: #f7f7f7;
 margin: auto;
 width: 68.1%;
 max-width: 800px;
@@ -48,7 +48,7 @@ td#photo
 {
 width: 30%;
 /*height: 460px;*/
-background-color: #e2e2e2;
+background-color: #f7f7f7;
 vertical-align: center;
 }
 
@@ -94,8 +94,8 @@ td#border {
 
 
 a {text-decoration:none}
-a:link {color:#0F4D92}
-a:hover {color:#3399FF}
+a:link {color:#cb7cdf}
+a:hover {color:#7b2a90}
 
 table#grid a {text-decoration:none}
 table#grid a:link {color:#000000}

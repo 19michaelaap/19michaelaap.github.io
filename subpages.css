@@ -52,7 +52,7 @@ table#lists td#pub{
   text-align: left;
   vertical-align: top;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
 }
 
 table#lists td#docs{
@@ -71,6 +71,7 @@ td#sempty {
 
 td#talk {
   text-align: left;
+  padding-bottom: 10%;
 }
 
 table#lists{

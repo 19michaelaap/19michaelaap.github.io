@@ -45,21 +45,21 @@ td#summary {
 table#lists td#number{
   width: 10%;
   vertical-align: top;
-  padding-bottom: 15%;
+  padding-bottom: 7%;
 }
 
 table#lists td#pub{
   width: 80%;
   text-align: left;
   vertical-align: top;
-  padding-bottom: 15%;
+  padding-bottom: 7%;
 }
 
 table#lists td#docs{
   width: 10%;
   line-height: 1.5;
   vertical-align: top;
-  padding-bottom: 15%;
+  padding-bottom: 7%;
 }
 
 td#empty{
@@ -71,8 +71,8 @@ td#sempty {
 }
 
 td#talk {
-  text-align: left;
-  padding-bottom: 20%;
+  text-align: justify;
+  padding-bottom: 7%;
 }
 
 table#lists{

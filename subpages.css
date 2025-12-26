@@ -59,7 +59,7 @@ table#lists td#number{
 
 table#lists td#pub{
   width: 75%;
-  text-align: left;
+  text-align: justify;
   vertical-align: top;
   padding-bottom: 4%;
   padding-right: 5%;

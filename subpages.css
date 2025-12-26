@@ -38,6 +38,15 @@ td#header {
   color: #7b2a90;
 }
 
+td#headerleft {
+  text-align: left;
+  vertical-align: top;
+  font-size: large;
+  font-weight: bold;
+  color: #7b2a90;
+}
+
+
 td#summary {
   text-align: justify;
 }
@@ -59,6 +68,7 @@ table#lists td#pub{
 table#lists td#docs{
   width: 15%;
   line-height: 1.5;
+  text-align: center;
   vertical-align: top;
   padding-bottom: 4%;
 }
@@ -124,3 +134,7 @@ table#lists a {text-decoration:none}
 table#lists a:link {color:#cb7cdf}
 table#lists a:visited {color:#cb7cdf}
 table#lists a:hover {color:#7e20b5}
+
+ul.square {
+  list-style-type: square;
+}

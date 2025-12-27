@@ -46,6 +46,22 @@ td#headerleft {
   color: #7b2a90;
 }
 
+td#headerjust {
+  text-align: justify;
+  vertical-align: top;
+  font-size: large;
+  font-weight: bold;
+  color: #7b2a90;
+}
+
+td#subheader {
+  text-align: left;
+  vertical-align: top;
+  font-size: medium;
+  font-weight: normal;
+  color: #7b2a90;
+}
+
 
 td#summary {
   text-align: justify;

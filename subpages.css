@@ -138,8 +138,8 @@ td#border {
 
 
 a {text-decoration:none}
-a:link {color:#cb7cdf}
-a:visited {color:#cb7cdf}
+a:link {color:#b841d7}
+a:visited {color:#b841d7}
 a:hover {color:#7b2a90}
 
 table#grid a {text-decoration:none}
@@ -148,8 +148,8 @@ table#grid a:visited {color:#000000}
 table#grid a:hover {color:#7e20b5}
 
 table#lists a {text-decoration:none}
-table#lists a:link {color:#cb7cdf}
-table#lists a:visited {color:#cb7cdf}
+table#lists a:link {color:#b841d7}
+table#lists a:visited {color:#b841d7}
 table#lists a:hover {color:#7e20b5}
 
 ul.square {

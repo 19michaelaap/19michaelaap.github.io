@@ -153,4 +153,5 @@ table#lists a:hover {color:#7e20b5}
 
 ul.square {
   list-style-type: square;
+  line-height: 1.5;
 }

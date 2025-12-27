@@ -63,7 +63,7 @@ td#photo
 width: 30%;
 /*height: 460px;*/
 background-color: #f7f7f7;
-vertical-align: center;
+vertical-align: top;
 }
 
 td#photo img

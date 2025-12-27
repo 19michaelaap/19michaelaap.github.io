@@ -25,7 +25,8 @@ font-style: normal;
 td#info {
 text-align: justify;
 vertical-align: top;
-padding: 3%;
+padding-left: 3%;
+padding-right:3%;
 }
 
 td#info h1

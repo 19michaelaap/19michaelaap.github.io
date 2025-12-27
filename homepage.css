@@ -50,6 +50,14 @@ margin-top: 0;
 color: #7b2a90;
 }
 
+td#info br {
+  height: 5px;
+}
+
+td#photo br {
+  height: 5px;
+}
+
 td#photo
 {
 width: 10%;

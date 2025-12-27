@@ -25,8 +25,7 @@ font-style: normal;
 td#info {
 text-align: justify;
 vertical-align: top;
-padding-left: 3%;
-padding-right:3%;
+padding: 3%;
 }
 
 td#info h1
@@ -70,6 +69,7 @@ width: 30%;
 /*height: 460px;*/
 background-color: #f7f7f7;
 vertical-align: top;
+padding-top:3%
 }
 
 td#photo img

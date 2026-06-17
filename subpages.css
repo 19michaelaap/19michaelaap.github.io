@@ -56,6 +56,10 @@
 	margin: 10px 0;
 }
 
+.pdf-link {
+	margin: 10px 0;
+}
+
 /* --- Publications list --- */
 .pub {
 	display: flex;
@@ -105,7 +109,7 @@ ul.square {
 	}
 
 	.pdf-embed {
-		height: 400px;
+		display: none;
 	}
 
 	.summary,

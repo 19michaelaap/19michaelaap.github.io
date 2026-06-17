@@ -1,0 +1,254 @@
+/* =========================================================
+   CONFERENCE SITE — SINGLE STYLESHEET
+   Link this one file from every page:
+       <link rel="stylesheet" href="style.css">
+
+   HOW THIS FILE IS ORGANISED
+     1. Colors & fonts   (change these to restyle everything)
+     2. Page layout      (the sidebar + content shell)
+     3. Sidebar / tabs
+     4. Content elements (titles, text, tables, etc.)
+     5. Mobile rules     (sidebar moves to the top)
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. COLORS & FONTS
+   Edit a value here and it updates across the whole site.
+   --------------------------------------------------------- */
+:root {
+	--page-bg:      #f7f7f7;   /* page background                       */
+	--text-color:   #000000;   /* normal text                           */
+	--accent:       #a439bf;   /* purple — links                        */
+	--accent-dark:  #7b2a90;   /* darker purple — headings + active tab */
+	--accent-hover: #7e20b5;   /* purple — tab hover background          */
+
+	--font:         Verdana, Geneva, sans-serif;
+	--sidebar-width: 200px;    /* how wide the sidebar is on desktop     */
+}
+
+
+/* ---------------------------------------------------------
+   2. PAGE LAYOUT
+   .layout is a row: [ sidebar ] [ content ].
+   It is centered on the page with a max width.
+   --------------------------------------------------------- */
+body {
+	font-family: var(--font);
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	margin: 0;
+}
+
+.layout {
+	display: flex;
+	gap: 30px;
+	max-width: 1100px;       /* sidebar + content + gap          */
+	margin: 40px auto;       /* 40px top/bottom, centered side-to-side */
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	flex: 0 0 var(--sidebar-width);   /* fixed width, never shrinks */
+	display: flex;
+	flex-direction: column;           /* title, tabs, footer stack top-to-bottom */
+}
+
+.content {
+	flex: 1;          /* takes the remaining space */
+	min-width: 0;     /* lets long content wrap instead of overflowing */
+}
+
+
+/* ---------------------------------------------------------
+   3. SIDEBAR / TABS
+   The conference name sits at the top, the tabs below it.
+   Each tab is a full-width button. The current page's tab
+   uses class="active" (see the HTML).
+   --------------------------------------------------------- */
+.sidebar-title {
+	font-weight: bold;
+	font-size: large;
+	color: var(--accent-dark);
+	margin-bottom: 20px;
+	line-height: 1.3;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;   /* stack the tabs vertically */
+	gap: 8px;
+}
+
+.nav a,
+.nav a:visited {
+	text-decoration: none;
+	color: var(--text-color);
+	border: 1px solid var(--text-color);
+	border-radius: 4px;
+	padding: 8px 14px;
+	transition: 0.2s;
+}
+
+.nav a:hover {
+	color: #ffffff;
+	background-color: var(--accent-hover);
+	border-color: var(--accent-hover);
+}
+
+/* The tab for the page you are currently on. */
+.nav a.active {
+	color: #ffffff;
+	background-color: var(--accent-dark);
+	border-color: var(--accent-dark);
+}
+
+/* Small "last updated" note pinned to the bottom of the sidebar.
+   margin-top: auto eats the empty space above it, so it always
+   sits at the very bottom no matter how tall the page is. */
+.last-updated {
+	margin-top: auto;
+	padding-top: 20px;
+	font-size: small;
+	color: #777777;
+}
+
+
+/* ---------------------------------------------------------
+   4. CONTENT ELEMENTS
+   --------------------------------------------------------- */
+
+/* Links inside the main content area */
+.content a,
+.content a:visited {
+	text-decoration: none;
+	color: var(--accent);
+}
+.content a:hover {
+	color: var(--accent-dark);
+}
+
+.title {
+	font-size: x-large;
+	font-weight: bold;
+	color: var(--accent-dark);
+	margin: 0 0 20px;
+}
+
+.header {
+	font-size: large;
+	font-weight: bold;
+	color: var(--accent-dark);
+	margin: 30px 0 10px;
+}
+
+.subheader {
+	font-size: medium;
+	font-weight: bold;
+	color: var(--accent-dark);
+	margin: 20px 0 6px;
+}
+
+/* A justified paragraph of body text */
+.summary {
+	text-align: justify;
+	line-height: 1.6;
+	margin-bottom: 12px;
+}
+
+/* A purple call-to-action button (e.g. "Register now") */
+.button,
+.button:visited {
+	display: inline-block;
+	background-color: var(--accent-dark);
+	color: #ffffff;
+	border-radius: 4px;
+	padding: 10px 18px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.button:hover {
+	background-color: var(--accent-hover);
+	color: #ffffff;
+}
+
+/* Simple bulleted list, like your original square list */
+ul.square {
+	list-style-type: square;
+	line-height: 1.6;
+}
+
+/* Schedule table */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 10px 0 20px;
+}
+th, td {
+	border: 1px solid #cccccc;
+	padding: 8px 12px;
+	text-align: left;
+	vertical-align: top;
+}
+th {
+	background-color: var(--accent-dark);
+	color: #ffffff;
+}
+
+/* Speaker cards: a responsive grid that wraps automatically */
+.speakers {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 20px;
+	margin-top: 10px;
+}
+.speaker {
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	padding: 16px;
+	background-color: #ffffff;
+}
+.speaker .name {
+	font-weight: bold;
+	color: var(--accent-dark);
+}
+.speaker .affiliation {
+	font-size: small;
+	color: #555555;
+}
+
+
+/* ---------------------------------------------------------
+   5. MOBILE  (screens 768px wide or narrower)
+   The layout switches to a single column, so the sidebar
+   moves to the TOP and the tabs become a wrapping row.
+   --------------------------------------------------------- */
+@media (max-width: 768px) {
+
+	.layout {
+		flex-direction: column;
+		gap: 20px;
+		margin-top: 20px;
+	}
+
+	.sidebar {
+		flex: 0 0 auto;       /* let it size to its content at the top */
+	}
+
+	.sidebar-title {
+		text-align: center;
+		margin-bottom: 12px;
+	}
+
+	.nav {
+		flex-direction: row;  /* tabs sit side by side */
+		flex-wrap: wrap;      /* and wrap onto new lines as needed */
+		justify-content: center;
+	}
+
+	.last-updated {
+		margin-top: 12px;     /* no need to push to the bottom on mobile */
+		text-align: center;
+	}
+}

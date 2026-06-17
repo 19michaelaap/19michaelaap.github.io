@@ -26,10 +26,13 @@ body {
 .navbar a:visited {
 	text-decoration: none;
 	color: #000000;
+	border: 1px solid #000000;
+	padding: 8px 14px;
 }
 
 .navbar a:hover {
 	color: #7e20b5;
+	border-color: #7e20b5;
 }
 
 /* ===== Divider line under the nav ===== */

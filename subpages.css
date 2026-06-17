@@ -1,68 +1,6 @@
 /* =========================================================
-   SHARED SHELL — identical to homepage.css
-   (If you later change the nav or container, remember to
-    update it in BOTH files. See the note at the end.)
-   ========================================================= */
-
-body {
-	font-family: Verdana, Geneva, sans-serif;
-	background-color: #f7f7f7;
-	margin: 0;
-}
-
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	margin-top: 40px;
-	padding: 20px;
-	box-sizing: border-box;
-}
-
-/* --- Navigation bar --- */
-.navbar {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 23px;
-}
-
-.navbar a,
-.navbar a:visited {
-	text-decoration: none;
-	color: #000000;
-	border: 1px solid #000000;
-	padding: 8px 14px;
-	border-radius: 4px;
-	transition: 0.2s;
-}
-
-.navbar a:hover {
-	color: #ffffff;
-	background-color: #7e20b5;
-	border-color: #7e20b5;
-}
-
-/* --- Divider under the nav --- */
-.divider {
-	border: none;
-	border-top: 3px solid #000000;
-	width: 80%;
-	margin: 20px auto;
-}
-
-/* --- Content links (purple) --- */
-a,
-a:visited {
-	text-decoration: none;
-	color: #a439bf;
-}
-
-a:hover {
-	color: #7b2a90;
-}
-
-/* =========================================================
-   SUBPAGE CONTENT
+   SUBPAGE-SPECIFIC STYLES
+   (Shell now lives in shared.css — link it BEFORE this file.)
    ========================================================= */
 
 .title {
@@ -153,17 +91,8 @@ ul.square {
 	line-height: 1.5;
 }
 
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
+/* --- Mobile --- */
 @media (max-width: 600px) {
-
-	.navbar {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		justify-items: center;
-	}
 
 	.pub {
 		flex-direction: column;
@@ -182,7 +111,7 @@ ul.square {
 	.summary,
 	.pub-info,
 	.talk {
-		text-align: left;   /* justified text looks gappy on narrow screens */
+		text-align: left;
 	}
 
 }

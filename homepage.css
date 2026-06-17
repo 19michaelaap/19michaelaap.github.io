@@ -31,7 +31,8 @@ body {
 }
 
 .navbar a:hover {
-	color: #7e20b5;
+	color: #ffffff;
+	background-color: #7e20b5;
 	border-color: #7e20b5;
 }
 

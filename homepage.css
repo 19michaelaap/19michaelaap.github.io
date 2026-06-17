@@ -95,6 +95,12 @@ body {
 /* ===== Mobile layout (screens 600px wide or narrower) ===== */
 @media (max-width: 600px) {
 
+	.navbar {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+	}
+
 	.profile {
 		flex-direction: column;   /* stack photo ABOVE bio */
 	}
